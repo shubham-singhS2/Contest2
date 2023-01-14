@@ -1,0 +1,144 @@
+body{
+  background-color: black;
+}
+
+*{
+  font-family: 'Arimo', sans-serif;
+font-family: 'Sofia Sans', sans-serif;
+}
+
+.sidebar{
+  background-color:aqua;
+  position: fixed;
+  width: 200px;
+  top: 0;
+  left: 0;
+  height: 95%;
+  padding: 20px;
+}
+
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin-top: 10px;
+  width: 200px;
+  height: 95%;
+  background-color: rgb(55, 51, 51);
+  padding: 20px;
+  border-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+.button-container {
+  display: block;
+  
+  margin-top: 20px;
+
+}
+
+.btn{
+  border-radius: 20px;
+  
+  padding: 10px 20px;
+  width: 100%;
+  color: rgb(200,200,200);
+  background-color: black;
+  cursor: pointer;
+}
+
+.main-content{
+  margin-left: 235px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.content1{
+  margin-left: 10px;
+  margin-right: 250px;
+  margin-top: 10px;
+  background-color: rgb(55, 51, 51);
+  padding: 10px 20px;
+  height: 54%;
+  border-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.content2{
+  margin-left: 10px;
+  margin-right: 250px;
+  background-color: rgb(55, 51, 51);
+  height: 40%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.text-content {
+  width: 50%;
+  padding: 20px;
+  color: rgb(200, 200, 200);
+  font-family: arial;
+}
+
+.image {
+  /* background-color: black; */
+
+  top: 0;
+  left: 0;
+position: fixed;
+margin-top: 70px;
+margin-left: 1000px;
+margin-bottom: 500px;
+
+  
+}
+
+
+table,th,td{
+  border: 1px solid rgb(200, 200, 200);
+  border-collapse: collapse;
+ 
+}
+
+
+.table{
+  color: rgb(200, 200, 200);
+  width: 75%;
+  height: 180px;
+  margin: 50px;
+  top: 100px;
+  
+}
+
+.text{
+  color: rgb(200, 200, 200);
+}
+p{
+  line-height: 1.5em;
+}
+
+.tt{
+  text-align: center;
+}
+.right-image{
+border-radius: 25px;
+}
